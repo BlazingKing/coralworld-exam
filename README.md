@@ -1,36 +1,36 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Coral Passport Clone - Take Home Project
 
-## Getting Started
+This project is a simple clone of the Coral Passport page based on the provided requirements.
 
-First, run the development server:
+## 📚 Project Description
+
+- Display all event markers on the map.
+- Display the list of events as box/grid.
+- On first load, users can see all markers on the map.
+- Users can click on a marker or a box to view a larger image in a modal, and the map will zoom into the marker.
+- Fully responsive:
+  - **Mobile:** Map and Grid are displayed on separate tabs.
+  - **Desktop:** Map and Grid are displayed on the same page.
+
+This project strictly follows the **Functional Requirements** and avoids all **Excluded Features** as specified.
+
+---
+
+## 🛠 Tech Stack
+
+- **Next.js 15** (App Router)
+- **React 18**
+- **React Leaflet** (Map Library)
+- **Tailwind CSS** (Styling Framework)
+- **React Query** (Data Fetching)
+
+---
+
+## 🚀 Getting Started
+
+1. **Extract** the provided zip file.
+2. Open terminal and navigate to the extracted project folder.
+3. Install dependencies:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+npm install
